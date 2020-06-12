@@ -125,7 +125,14 @@ Precio segun cantidad ▲ ▼ (decimal indica cuantos llevas)Sigo siendo yo$
 Precio segun cantidad ▲ ▼ (decimal indica cuantos llevas)El psicoanalista$
  <input type="number" name="El psicoanalista" value="0" readonly="readonly" min="0"
                                                 max="5000000000" step="9000.00001">
-  
+  ...
+           <script>
+               var teC = teC || {};
+               window.onload = function() {
+                    //carga el teclado
+                    teC.cargarTecladoAuxiliar(document.body);
+               };
+           </script>
 
 </p>
      Confirma cuantos  llevas:
